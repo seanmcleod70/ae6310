@@ -11,6 +11,7 @@ myst-parser
 nbsphinx
 ipykernel
 nbconvert
+jupyter
 jupyter-client
 
 # Extensions
