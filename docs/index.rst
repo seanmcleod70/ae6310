@@ -10,17 +10,17 @@ Recommended references
 
 I recommend the following reference textbooks for further information about the course material:
 
-1. `Engineering Design Optimization <https://mdobook.github.io/>`, J.R.R.A. Martins and A. Ning
+1. `Engineering Design Optimization <https://mdobook.github.io/>`_, J.R.R.A. Martins and A. Ning
 
-2. `Numerical Optimization <https://link.springer.com/book/10.1007/978-0-387-40065-5>`, J. Nocedal and S.J. Wright
+2. `Numerical Optimization <https://link.springer.com/book/10.1007/978-0-387-40065-5>`_, J. Nocedal and S.J. Wright
 
-3. `Practical Methods of Optimization <https://onlinelibrary.wiley.com/doi/book/10.1002/9781118723203>`, R. Fletcher
+3. `Practical Methods of Optimization <https://onlinelibrary.wiley.com/doi/book/10.1002/9781118723203>`_, R. Fletcher
 
-4. `Practical Optimization <https://epubs.siam.org/doi/book/10.1137/1.9781611975604>`, M.H. Wright, P.E. Gill, and W. Murray
+4. `Practical Optimization <https://epubs.siam.org/doi/book/10.1137/1.9781611975604>`_, M.H. Wright, P.E. Gill, and W. Murray
 
-5. `Trust Region Methods <https://epubs.siam.org/doi/10.1137/1.9780898719857>`, A.R. Conn, N.I.M. Gould, and P.L. Toint
+5. `Trust Region Methods <https://epubs.siam.org/doi/10.1137/1.9780898719857>`_, A.R. Conn, N.I.M. Gould, and P.L. Toint
 
-6. `Convex Optimization <https://stanford.edu/~boyd/cvxbook/>`, S. Boyd and L. Vandenberghe
+6. `Convex Optimization <https://stanford.edu/~boyd/cvxbook/>`_, S. Boyd and L. Vandenberghe
 
 7. Numerical Optimization Techniques for Engineering Design, G.N. Vanderplaats
 
