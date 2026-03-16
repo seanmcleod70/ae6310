@@ -62,3 +62,10 @@ html_context = {
 html_static_path = ["_static"]
 
 html_show_sourcelink = False
+
+
+# -- Options for LaTeX output -------------------------------------------------
+
+latex_elements = {
+    'pointsize': '12pt'
+}
