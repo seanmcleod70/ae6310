@@ -71,24 +71,24 @@ This course does not cover topology optimziation specifically, however this type
 .. toctree::
    :maxdepth: 2
 
-   intro_to_python.rst
-   jupyter/Introduction.ipynb
-   jupyter/Unconstrained_Optimization_Theory.ipynb
-   jupyter/Minimization_of_Quadratic_Functions.ipynb
-   jupyter/Fundamentals_Unconstrained_Opt_Algorithms.ipynb
-   jupyter/Line_Search_Methods.ipynb
-   jupyter/Line_Search_Algorithms.ipynb
-   jupyter/Trust_Region_Methods.ipynb
-   jupyter/Constrained_Optimization_Theory.ipynb
-   jupyter/Constrained_Optimization_Algorithms.ipynb
-   jupyter/Introduction_to_Simulation-based_Optimization.ipynb
-   jupyter/Trajectory_Optimization_Case_Study.ipynb
-   jupyter/PDE_Constrained_Optimization.ipynb
-   jupyter/Multidisciplinary_Optimization.ipynb
-   jupyter/Surrogate_Modeling.ipynb
-   jupyter/Derivative_Free_Optimization.ipynb
-   jupyter/2026_project/race_car_problem.ipynb
-   jupyter/2025_project/Class_Project_Description.ipynb
+intro_to_python.rst
+jupyter/Introduction.ipynb
+jupyter/Unconstrained_Optimization_Theory.ipynb
+jupyter/Minimization_of_Quadratic_Functions.ipynb
+jupyter/Fundamentals_Unconstrained_Opt_Algorithms.ipynb
+jupyter/Line_Search_Methods.ipynb
+jupyter/Line_Search_Algorithms.ipynb
+jupyter/Trust_Region_Methods.ipynb
+jupyter/Constrained_Optimization_Theory.ipynb
+jupyter/Constrained_Optimization_Algorithms.ipynb
+jupyter/Introduction_to_Simulation-based_Optimization.ipynb
+jupyter/Trajectory_Optimization_Case_Study.ipynb
+jupyter/PDE_Constrained_Optimization.ipynb
+jupyter/Multidisciplinary_Optimization.ipynb
+jupyter/Surrogate_Modeling.ipynb
+jupyter/Derivative_Free_Optimization.ipynb
+jupyter/2026_project/race_car_problem.ipynb
+jupyter/2025_project/Class_Project_Description.ipynb
 
 
 Indices and tables
