@@ -35,26 +35,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r docs/requirements.txt
 
-      - name: Build Sphinx HTML
+      - name: Build Sphinx PDF
         run: |
-          sphinx-build -b html docs docs/_build/html
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+          sudo apt-get update
+          sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
+          cd docs/
+          make latexpdf
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          path: docs/_build/html
+          name: documentation
+          path: docs/_build/latex/*.pdf
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
