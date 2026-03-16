@@ -38,9 +38,10 @@ jobs:
       - name: Build Sphinx PDF
         run: |
           sudo apt-get update
-          sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
-          cd docs/
-          make latexpdf
+          sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk tex-gyre
+          sphinx-build -M latexpdf docs docs/_build/latex
+#          cd docs/
+#          make latexpdf
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
