@@ -67,8 +67,6 @@ This image illustrates the results of a topology optimization case where the the
 Topology optimization problems may involve millions of design variables and require the solution of a challenging finite-element simulation.
 This course does not cover topology optimziation specifically, however this type of application can be tackled with the knowledge and theory developed in this course.
 
-Table of Contents
-*****************
 
 .. toctree::
    :maxdepth: 2
